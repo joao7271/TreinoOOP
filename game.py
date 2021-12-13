@@ -11,6 +11,8 @@ def jogar(pontos: int) -> None:
     dificuldade: int = int(input('Informe o nivel de dificuldade desejado [1, 2, 3, 4]: '))
 
     calc: Calcular = Calcular(dificuldade)
+    if dificuldade > 4:
+        print("Pra largar a mão de ser besta e para aprender respeitar os niveis, se vira bobão!")
 
     print('Informe o resultado par a seguinte operaçao: ')
     calc.mostrar_operacao()

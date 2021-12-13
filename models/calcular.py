@@ -21,7 +21,7 @@ class Calcular:
         elif self.dificuldade == 4:
             return randint(0, 10000)
         else:
-            return randint(0, 999999999999999)
+            return randint(0, 9999999999999999999999999)
 
     @property
     def _op_simbolo(self: object) -> str:
